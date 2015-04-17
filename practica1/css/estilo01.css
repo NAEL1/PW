@@ -1,0 +1,305 @@
+/*El cuerpo muestra un tamaño de 900px de ancho con unos márgenes automáticos para que la información se encuentre en el centro*/
+
+
+#contenedor{
+    color:#5D5454;
+    font-family:"Times New Roman", Arial, sans-serif,verdana;
+    width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* INICIO DEL CODIGO DE LA PARTE SUPERIOR DE LA PAGINA */
+#cabecera{
+	border-top: 2px solid black; 
+    padding-top: 10px; 
+}
+
+#escudo{
+    width:200px;
+    height:70px; 
+    float:right;
+}
+
+#cabecera_botanico{
+    width:900px;
+    height:130px;
+    
+}
+#inicio{
+	background:none; 
+    list-style:inside url(../imagenes/ico-cuadrado.jpg);
+    margin-top:10px;  
+    margin-bottom: -14px;
+    height:38px; 
+}
+/* FIN DEL CODIGO DE LA PARTE SUPERIOR DE LA PAGINA */
+
+/*PARTE CENTRAL DE LA PAGINA QUE  INCLUYE LATERAL + BANNER +CONTENIDO   NO VARIA ENTRO PAGINAS */
+div#central{
+   
+    background-color: #cccccc;
+    border-top-color: gray;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    float:left;
+}
+ /* FIN DEL CODIGO DE LA PARTE CENTRAL  */
+
+/* INICIO DEL CODIGO DEL MENU LATERAL */
+
+ /* QUITAR LA DECORACION DE LOS ENLACES Y PONER COLOR DE LETRA GRIS*/
+a{
+	 text-decoration:none;
+	 color:grey;
+}
+
+/*PINTAR LOS ENLACES VISITADOS DE COLOR VERDE OSCURO */
+a:visited{	color:#044916;
+}
+#lateral{
+    float: left;
+}
+
+#menu{
+	width:220px;
+	height:313px;
+}
+#menu ul,#menu li {
+	margin:0px;
+    padding:0px;
+    width: 220px;
+    line-height:35px;
+    list-style:inside url(../imagenes/flecha-mini.jpg);
+    background: #e8e5e5; 
+    border-top: 1px solid black;
+    height:38px;
+}
+
+#menu li:hover {
+	margin:0px;
+    padding:0px;
+    width: 220px;
+    line-height:35px;
+    list-style:inside url(../imagenes/flecha-mini-verde.jpg);
+    background: #186306; 
+    border-top: 1px solid black;
+    height:38px;
+    color:white;
+}
+
+
+#separador{
+	background:black url(../imagenes/separador.jpg) no-repeat;
+	height:38px;
+    background-size: 220px 38px;
+   
+}
+
+#usuario{
+	background: #e8e5e5;
+	width:220px;
+    border-bottom: 3px solid #838696;
+}
+
+
+
+#usuario input{
+	height:16px;
+    width: 160px;
+    margin-left: 24px;
+}
+
+
+#usuario ul{
+
+	list-style:inside url(../imagenes/flecha-mini.jpg);
+	margin-left: -30px;
+}
+
+input#enviar{
+
+    margin-left: 16px;
+	height: 30px;
+	width: 80px;
+	padding-top: 12px;
+	padding-left: 12px;
+}
+
+/* FIN DEL CODIGO DEL MENU LATERAL*/
+
+
+/* INICIO DEL CODIGO DE LA PARTE CENTRAL QUE NO VARIA */
+
+div#banner{
+    border-bottom: 3px;
+    padding-bottom: 9px;
+    padding-left: 680px;
+    padding-top: 40px;
+    position: relative;
+    background: white url("../imagenes/j-botanico.jpg") no-repeat;
+    border-bottom-style: solid;
+    border-color: green;
+    margin:-1px 0px 0px 0px;
+    float: left;
+    background-size: 680px;
+}
+
+
+
+div#contenido{
+    font-size: 14px;
+    float:right;
+    width: 680px;
+    background-color: white;
+    padding-top: 25px;
+	padding-bottom: 100px;
+}
+
+/* FIN DEL CODIGO DE LA PARTE CENTRAL QUE NO*/
+
+/**/
+
+
+.img_pagina{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 30px auto;
+    width:475px;
+}
+
+div#contenido p{
+    padding:0px 30px;
+}
+
+/* INICIO DEL CODIGO DE PIE DE PAGINA*/
+
+div #pie{
+	clear: both;	
+	padding-top: 3px;
+}
+div #pie1{
+ border-top-width: 1px;
+ background: white url("../imagenes/pie1.jpg") no-repeat;
+ border-bottom-style: solid;
+ margin-top: 10px;
+ height: 84px;
+ background-size: 905px 84px;
+}
+
+div #pie2{
+ background: white url("../imagenes/pie2.jpg") no-repeat;
+ margin-top: 5px;
+ height: 30px;
+ background-size: 905px 30px;
+}
+
+/* FIN DEL CODIGO DE PIE DE PAGINA*/
+
+
+/*SECCION INFORMACION */
+
+.contacto{ 
+	border-top: 10px solid #05290F;
+	margin: 20px;
+}
+
+.col1{ /* formato de la primera columna de la tabla de contactos  */
+	background-color: #689578;
+	min-width: 100px;
+	height: 32px;
+}
+.col2{/* formato de la primera columna de la tabla de contactos */
+	padding-left: 20px;
+}
+/* da estilo a ña  */
+.leyenda{
+	text-align: right; /* para centrar la leyenda pero como la tabla es pequeña lo ponemos a right */
+	font-size: 18px;
+	padding-top: 20px;
+
+}
+/* Para centarar los 2 ultimos de la pagina de contactos */
+.contacto p{
+	text-align: center;
+}
+
+/* FIN SECCION INFORMACION */
+
+
+/* SECCION NOTICIAS*/
+
+
+/* reajuste del tamaño del menu al agregar 2 nuevos enlaces */
+#menu2{
+	width:220px;
+	height:391px;
+	background-color: #CCCCCC;
+}
+/* estilo de los enlaces del menu  */
+#menu2 ul,#menu2 li {
+	margin:0px;
+    padding:0px;
+    width: 220px;
+    line-height:35px;
+    list-style:inside url(../imagenes/flecha-mini.jpg);
+    background: #e8e5e5; 
+    border-top: 1px solid black;
+    height:38px;
+}
+
+/* al posicionarse raton cambia el color de fondo el color de la letra*/
+#menu2 li:hover, #menu2 li#not1 , #menu2 li.not2:hover { 
+	margin:0px;
+    padding:0px;
+    width: 220px;
+    line-height:35px;
+    list-style:inside url(../imagenes/flecha-mini-verde.jpg);
+    background: #186306; 
+    border-top: 1px solid black;
+    height:38px;
+    color:white;
+}
+
+#menu2 li.not2{
+	background-color: white; /* el submen deplegable tiene fondo blanco   */
+}
+#test{
+	border-bottom: 3px solid #8C8C8C;
+	margin:0px 80px;
+}
+
+#fecha{
+	color: green;
+}
+#leer{
+	text-align: right; /* para que esta seccion flote a la derecha*/
+}
+div#contenido2{    /* renombramos el div porque en noticias el fondo tiene color gris */
+    font-size: 14px;
+    float:right;
+    width: 680px;
+    background-color: #CCCCCC; /* color gris igual que el contenedor  */
+    padding-top: 25px;
+	padding-bottom: 100px;
+}
+
+/* FIN SECCION NOTICIAS */
+
+/* SECCION COMO LLEGAR */
+
+.mapa{
+
+	padding-left: 50px; /* para que el mapa este mas centrado en la pagina  */
+}
+
+.calle{
+	text-align: center; /* para que las direcciones se centren debajo del mapa  */
+}
+/*FIN SECCION COMO LLEGAR */

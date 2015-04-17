@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<!-- Cabecera de la web --> 
+	<head>
+		<title>Jardines Botanicos UGR &gt Inicio</title>
+		<!-- Zona de recursos enlazados (CSS, RSS, JavaScript) -->
+	  	<link rel="stylesheet" href="css/estilo01.css" type="text/css" media="screen" />
+	</head>
+
+	<!-- Cuerpo de la web-->
+	<body>
+		<!-- Contenedor que contiene toda la web -->
+		<div id="contenedor">
+		<!-- Contenedor para la parte superior (Logo de la universidad, cabecera de jardines y el boton de inicio) -->
+			<div id="cabecera">
+				<!-- Contenedor para el logo de la universidad -->
+				<div id="ugr">
+					<img id="escudo" src="imagenes/ugr.jpg"  />
+				</div>
+				<!-- Contenedor para la cabecera de jardines botanicos -->
+				<div id="botanico">
+					<img id="cabecera_botanico"src="imagenes/botanico.jpg"/>
+				</div>
+				<!-- Contenedor para la parte central (menu izquierdo, derecho y pie) -->
+				<div id="inicio">
+					<li><a href='index01.html' title='Enlace genérico'>Inicio</a></li>
+				</div>
+
+			</div>
+			<!-- Contenedor para la parte central (menu izquierdo y derecho) -->
+			<div id="central">
+				<!-- Contenedor del menu de secciones y de acceso -->
+				<div id="lateral">
+					<!-- Contenedor del menu de secciones
+					Las secciones que no estan realizadas se les referencia a la misma pagina donde se encuentra -->
+					<div id="menu">
+						<ul>
+	                     	<a href='index01.html' title='Enlace Presentación'><li class='panel'>Presentación</li></a>
+	                        <a href='index02.html' title='Enlace Información'><li class='panel'>Información</li></a>
+	                        <a href='index03.html' title='Enlace Noticias'><li class='panel'>Noticias</li></a>
+	                        <a href='#' title='Enlace Catálogo Jardín'><li class='panel'>Catálogo Jardín</li></a>
+	                        <a href='#' title='Enlace Catálogo Plantas'><li class='panel'>Catálogo Plantas</li></a>
+	                        <a href='#' title='Enlace Mapa del Jardín'><li class='panel'>Mapa del Jardín</li></a>
+	                        <a href='index04.html' title='Enlace Cómo Llegar'><li class='panel'>Cómo Llegar</li></a>
+	                        <a href='#' title='Enlace Fuentes Externas'><li class='panel'>Fuentes Externas</li></a>
+	                    </ul>
+                    </div>
+                    <!--Separador que contiene la imagen que separa el menu de secciones del formulario de acceso-->
+                    <div id="separador">
+                    </div>
+                    <!-- Contenedor del menu de acceso 
+                    1º Usuario de tipo texto
+                    2º Contraseña de tipo password para que no se vea lo que se escribe-->
+                    <div id="usuario">
+                    	Nuevo Usuario
+                    
+                    	<form >
+                       		<ul>
+		                    	<li> <label>Usuario:</label> <br/><input type='text'/><br/> </li>
+		                    	<li> <label>Contraseña:</label> <br/><input type='password'/><br/> </li>
+		                    	<input id="enviar" type='image' src='imagenes/enviar.jpg'></input>
+	                    	</ul>
+                    	</form>
+                    	¿Olvidó la contraseña?
+                    </div>
+				</div>
+
+				<!-- Contenedor de la parte con la imagen de la flecha mas JARDINES BOTANICOS -->
+				<div id="banner"></div>
+				<!-- Contenedor de la parte que cambia en los html -->
+				<div id="contenido">
+					 <p > <strong>Jardín Botánico Histórico </strong> </p>
+				 	<!--Se ha utilizado un iframe, que sirve como fondo interactivo con un mapa enlazado desde google maps-->
+	                 <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5571.501401494574!2d-3.604892500220578!3d37.176840397656434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fc9542dfe11f%3A0x7076f17b06561e97!2zQ2FsbGUgTcOhbGFnYSwgR3JhbmFkYSwgRXNwYcOxYQ!5e1!3m2!1ses!2s!4v1428681985137" width="600" height="400" frameborder="0" style="border:0"></iframe>
+	                 <br />
+
+	                 <p class="calle" >Calle Málaga, s/n, 18071 Granada.</p>
+	                 <p ><strong>Jardín Botánico Sierra Nevada</strong> </p>
+
+	                  <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d697.2007679896768!2d-3.3861400000000477!3d37.09398300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAlbergue+Universitario%2CMonachil%2C+Granada%2C+Espa%C3%B1a!5e1!3m2!1ses!2sus!4v1428684644734" width="600" height="400" frameborder="0" style="border:0"></iframe>
+	                  <br />
+	                  <p class='calle'> Carretera de Sierra Nevada, km 32, Monachil, Granada.</p>
+				</div>
+			</div>
+
+			<!-- Pie de la pagina -->
+			<div id="pie">
+				<div id="pie1">
+				</div>
+				<div id="pie2">
+				</div>
+			</div>
+
+
+		</div>	
+	</body>
+	 
+</html>
+
